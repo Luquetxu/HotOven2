@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondoPorDefecto"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dialog_pedido_titulo"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/primaryText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_pedido_comida_titulo"
+            android:paddingTop="10dp"
+            android:textStyle="bold"/>
+
+
+        <!-- ############################  COMIDAS#################-->
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                   <CheckBox
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/dialog_pedido_comida_hamburguesa"
+                       android:checked="false"
+                       android:id="@+id/dialog_pedido_checkbox_hamburguesa"/>
+
+                    <EditText
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dialog_pedido_cantidad_hamburguesa"
+                        android:theme="@style/cantidadProductos"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_pedido_comida_pizza"
+                        android:checked="false"
+                        android:id="@+id/dialog_pedido_checkbox_pizza"/>
+
+                    <EditText
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dialog_pedido_cantidad_pizza"
+                        android:theme="@style/cantidadProductos"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_pedido_comida_platoCombinado"
+                        android:checked="false"
+                        android:id="@+id/dialog_pedido_checkbox_plato"/>
+
+                    <EditText
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dialog_pedido_cantidad_plato"
+                        android:theme="@style/cantidadProductos"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_pedido_comida_ensalada"
+                        android:checked="false"
+                        android:id="@+id/dialog_pedido_checkbox_ensalada"/>
+
+                    <EditText
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dialog_pedido_cantidad_ensalada"
+                        android:theme="@style/cantidadProductos"/>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/primaryText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_pedido_bebida_titulo"
+            android:paddingTop="10dp"
+            android:textStyle="bold"/>
+
+        <!-- ############################  BEBIDAS  #################-->
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_pedido_bebida_agua"
+                        android:checked="false"
+                        android:id="@+id/dialog_pedido_checkbox_agua"/>
+
+                    <EditText
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dialog_pedido_cantidad_agua"
+                        android:theme="@style/cantidadProductos"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_pedido_bebida_cocacola"
+                        android:checked="false"
+                        android:id="@+id/dialog_pedido_checkbox_cocacola"/>
+
+                    <EditText
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dialog_pedido_cantidad_cocacola"
+                        android:theme="@style/cantidadProductos"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_pedido_bebdida_fanta"
+                        android:checked="false"
+                        android:id="@+id/dialog_pedido_checkbox_fanta"/>
+
+                    <EditText
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dialog_pedido_cantidad_fanta"
+                        android:theme="@style/cantidadProductos"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_pedido_bebida_cerveza"
+                        android:checked="false"
+                        android:id="@+id/dialog_pedido_checkbox_cerveza"/>
+
+                    <EditText
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dialog_pedido_cantidad_cerveza"
+                        android:theme="@style/cantidadProductos"/>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/primaryText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_pedido_notasAdicionales"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="@string/dialog_pedido_hint_notasAdicionales"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/dialog_pedido_boton_pedido"
+            android:text="@string/btn_restaurante_realizar_pedido"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</ScrollView>

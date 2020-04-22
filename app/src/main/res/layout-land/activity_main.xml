@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hotoven"
+            android:foregroundGravity="center"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/padding20dp"
+            android:paddingEnd="@dimen/padding20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cambiarIdioma_iniciarSesion"
+                android:textColor="@color/negro"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:paddingRight="10dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_idioma_iniciarsesion"
+                android:onClick="cambiarIdiomaAjustes"/>
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintTextAppearance="@style/editTextBlancoInicioSesion"
+            android:theme="@style/editTextBlancoInicioSesion"
+            android:padding="20dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/username"
+                android:hint="@string/hint_usuario"
+                android:textStyle="bold"
+                android:textColor="@color/textIcons"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintTextAppearance="@style/editTextBlancoInicioSesion"
+            android:theme="@style/editTextBlancoInicioSesion"
+            android:padding="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/contrasena"
+                android:hint="@string/hint_contrasena"
+                android:inputType="textPassword"
+                android:textStyle="bold"
+                android:textColor="@color/textIcons"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:paddingStart="20dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnIniciarSesion"
+                android:text="@string/iniciarSesion"
+                android:layout_gravity="center"
+                android:onClick="iniciarSesion"/>
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/noTengoCuenta"
+                android:onClick="crearCuenta"
+                android:layout_gravity="end|center"
+                android:textSize="15sp"
+                android:textColor="@color/textIcons"
+                android:layout_marginLeft="50dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

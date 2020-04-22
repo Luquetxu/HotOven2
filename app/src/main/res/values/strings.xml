@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Hot Oven</string>
+
+    <!--Inicio sesion -->
+
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_contrasena">Contraseña</string>
+    <string name="iniciarSesion">Iniciar sesión</string>
+    <string name="noTengoCuenta">No tengo cuenta, quiero registrarme</string>
+
+    <!-- Registro -->
+    <string name="hint_contrasenaRepetir">Repita la contraseña</string>
+    <string name="registro_botonRegistro">Registrar</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_datosVacios">Datos no introducidos</string>
+    <string name="dialog_datosVaciosConsejo">Rellene los datos que no se ha introducido</string>
+
+    <!--MENU PRINCIPAL-->
+    <string name="menu_restaurantes">Restaurantes</string>
+    <string name="menu_pedidosRealizados">Pedidos realizados</string>
+    <string name="menu_ajustes">Ajustes</string>
+    <string name="menu_instrucciones">Instrucciones</string>
+
+    <!--Instrucciones -->
+    <string name="informacionAplicacion">Información</string>
+
+    <!-- Restaurantes -->
+    <!-- Pedidios realizados -->
+
+
+    <!-- Ajustes -->
+    <string name="preferencias_datosPersonales">Datos personales</string>
+    <string name="preferencias_aspectoVisual">Aspecto visual</string>
+
+    <string name="preferencias_usuario_titulo">Usuario</string>
+    <string name="preferencias_usuario_summary">Introduce tu nombre de usuario</string>
+    <string name="preferencias_direccion_titulo">Dirección</string>
+    <string name="preferencias_direccion_summary">Introduce tu dirección de casa</string>
+    <string name="preferencias_colorMenu_titulo">Color del menú principal</string>
+    <string name="preferencias_colorMenu_summary">Elige el color del fondo del menú</string>
+
+    <string name="preferencias_idioma_ingles">Ingles</string>
+    <string name="preferencias_idioma_castellano">Español</string>
+    <string name="preferencias_idioma">Idioma</string>
+    <string name="preferencias_idioma_summary">Elija el idioma de la aplicación</string>
+    <string name="preferencias_color_defecto">Por defecto</string>
+    <string name="preferencias_color_rojo">Rojo</string>
+    <string name="preferencias_color_azul">Azul</string>
+    <string name="preferencias_color_verde">Verde</string>
+
+
+    <string name="restaurantes_lista_telefono">Telf:</string>
+    <string name="restaurantes_lista_url">URL:</string>
+    <string name="restaurante_info_tipo">"Tipo: "</string>
+    <string name="restaurante_info_telefono">"Teléfono: "</string>
+    <string name="restaurante_info_url">URL:</string>
+    <string name="restaurante_info_descripcion">Descripción:</string>
+
+    <string name="restaurante_info_comidaRapida">Comida rápida</string>
+    <string name="restautante_info_comidaRestaurante">Restaurante</string>
+    <string name="restaurante_info_comidaBar">Bar</string>
+    <string name="btn_restaurante_realizar_pedido">Realizar pedido</string>
+    <string name="dialog_pedido_comida_titulo">"Comida: "</string>
+    <string name="dialog_pedido_comida_hamburguesa">Hamburguesa</string>
+    <string name="dialog_pedido_comida_pizza">Pizza</string>
+    <string name="dialog_pedido_comida_platoCombinado">Plato combinado</string>
+    <string name="dialog_pedido_comida_ensalada">Ensalada</string>
+    <string name="dialog_pedido_bebida_agua">Agua</string>
+    <string name="dialog_pedido_bebida_cocacola">Coca-Cola</string>
+    <string name="dialog_pedido_bebdida_fanta">Fanta Naranja</string>
+    <string name="dialog_pedido_bebida_cerveza">Cerveza</string>
+    <string name="dialog_pedido_bebida_titulo">Bebidas:</string>
+    <string name="dialog_pedido_notasAdicionales">Notas adicionales</string>
+    <string name="dialog_pedido_hint_notasAdicionales">Añade información extra, ya sea relacionado con el pedido realizado o a la hora de la entrega</string>
+    <string name="notificacionCanal">Pedido</string>
+    <string name="notificacion_canal_descripcion">Se envía la notificación de aviso de cuando va a llegar el pedido</string>
+    <string name="notificacion_pedido_realizado">Pedido realizado</string>
+    <string name="notificacion_importe1">El pedido está en camino...</string>
+    <string name="notificacion_textoExpandible">"Coste total: "</string>
+    <string name="pedidos_lista_costeTotal">"Coste total: "</string>
+    <string name="pedidos_lista_vacia">No se ha realizado ningún pedido</string>
+    <string name="dialog_cerrarSesion_titulo">Cerrando sesión...</string>
+    <string name="dialog_cerrarSesion_mensaje">¿Estás seguro de que quieres cerrar sesión?</string>
+    <string name="cambiarIdioma_iniciarSesion">Cambiar idioma</string>
+    <string name="registro_titulo">REGISTRO</string>
+    <string name="restaurante_info_no_hay_url">No tiene URL</string>
+    <string name="notificacion_confirmar_pedido">Confirmar pedido</string>
+    <string name="notificacion_rechazar_pedido">Rechazar pedido</string>
+    <string name="dialog_foto_eleccion">Elige el modo de obtener la foto</string>
+    <string name="dialog_foto_capturar">Capturar foto</string>
+    <string name="dialog_foto_cancelar">Cancelar</string>
+    <string name="dialog_foto_galeria">Galeria</string>
+    <string name="dialog_foto_seleccionar">Seleccione un método</string>
+    <string name="permisos">Debes de aceptar los permisos</string>
+    <string name="ajustes_usuario_no_cambiado">Usuario no modificado, ya existe</string>
+    <string name="text_instrucciones">Esta aplicación consiste en realizar pedidos en los restaurantes cercanos. Se
+    puede escoger los restaurantes libremente. Al realizar un pedido, se puede confirmar o rechazar el pedido hecho.
+    En el menú principal se podrá acceder a la lista de pedidos realizados y borrarlos si se mantiene pulsado. </string>
+    <string name="title_activity_mapa_restaurante">Map</string>
+    <string name="btnVerMapa">Ver localización</string>
+    <string name="tipoMapa">Tipo mapa</string>
+    <string name="texto_restaurante_cercano">Realizar pedido al restaurante más cercano</string>
+
+    <string-array name="map_types_list">
+        <item>Normal</item>
+        <item>Satélite</item>
+        <item>Híbrido</item>
+        <item>Terreno</item>
+    </string-array>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="widget_usuarioNoIniciado">No se ha iniciado sesión</string>
+    <string name="widget_texto_usuario">"Último usuario iniciado: "</string>
+
+</resources>

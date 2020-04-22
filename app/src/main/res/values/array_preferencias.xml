@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colores">
+        <item>@string/preferencias_color_defecto</item>
+        <item>@string/preferencias_color_rojo</item>
+        <item>@string/preferencias_color_azul</item>
+        <item>@string/preferencias_color_verde</item>
+    </string-array>
+
+    <string-array name="codigosColores">
+        <item>blanco</item>
+        <item>rojo</item>
+        <item>azul</item>
+        <item>verde</item>
+    </string-array>
+
+    <string-array name="idioma">
+        <item>@string/preferencias_idioma_castellano</item>
+        <item>@string/preferencias_idioma_ingles</item>
+    </string-array>
+
+    <string-array name="idiomaValores">
+        <item>es</item>
+        <item>en</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.FragmentoRestauranteInformacion"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:id="@+id/restaurante_info_titulo"
+        android:textStyle="bold"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:paddingTop="@dimen/padding20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/restaurante_info_tipo"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/restaurante_info_tipoComida"/>
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="@dimen/padding20dp"
+            android:id="@+id/restauranteInfo_tabla_telefono">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/restaurante_info_telefono"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/restaurante_info_telefonoRestaurante"/>
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="@dimen/padding20dp"
+            android:id="@+id/restauranteInfo_tabla_url">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/restaurante_info_url"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/restaurante_info_urlRestaurante"
+                android:textSize="13sp"/>
+        </TableRow>
+    </TableLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/padding20dp"
+        android:id="@+id/btnMapa"
+        android:text="@string/btnVerMapa"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/padding20dp"
+        android:id="@+id/btnRealizarPedido"
+        android:text="@string/btn_restaurante_realizar_pedido"/>
+
+</LinearLayout>

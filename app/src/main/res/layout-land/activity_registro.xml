@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:orientation="horizontal"
+        android:paddingEnd="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cambiarIdioma_iniciarSesion"
+            android:textColor="@color/negro"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_idioma_iniciarsesion"
+            android:onClick="cambiarIdiomaAjustes"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/tituloRegistro"
+                    android:layout_gravity="center"
+                    android:text="@string/registro_titulo"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+
+            <!-- Username -->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/editTextBlancoRegistro"
+                android:theme="@style/editTextBlancoRegistro"
+                android:paddingStart="@dimen/padding20dp"
+                android:paddingEnd="@dimen/padding20dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/registroUsername"
+                    android:hint="@string/hint_usuario"
+                    android:textStyle="bold"
+                    android:textColor="@color/textIcons"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Contraseña -->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/editTextBlancoRegistro"
+                android:theme="@style/editTextBlancoRegistro"
+                android:paddingStart="@dimen/padding20dp"
+                android:paddingEnd="@dimen/padding20dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/registroContrasena"
+                    android:hint="@string/hint_contrasena"
+                    android:textStyle="bold"
+                    android:textColor="@color/textIcons"
+                    android:inputType="textPassword"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/editTextBlancoRegistro"
+                android:theme="@style/editTextBlancoRegistro"
+                android:textStyle="bold"
+                android:textColor="@color/textIcons"
+                android:paddingStart="@dimen/padding20dp"
+                android:paddingEnd="@dimen/padding20dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/registroContrasenaRepetida"
+                    android:hint="@string/hint_contrasenaRepetir"
+                    android:textStyle="bold"
+                    android:textColor="@color/textIcons"
+                    android:inputType="textPassword"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/registro_boton"
+                android:theme="@style/registro_boton"
+                android:layout_marginStart="@dimen/padding20dp"
+                android:layout_marginEnd="@dimen/padding20dp"
+                android:onClick="registrarUsuario"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

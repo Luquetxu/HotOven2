@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/preferencias_datosPersonales">
+        <EditTextPreference
+            android:key="name"
+            android:title="@string/preferencias_usuario_titulo"
+            android:summary="@string/preferencias_usuario_summary"
+            android:dialogTitle="@string/preferencias_usuario_summary"
+            android:icon="@drawable/ic_usuario_preferencias"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preferencias_aspectoVisual">
+        <ListPreference
+            android:dialogTitle="@string/preferencias_colorMenu_summary"
+            android:entries="@array/colores"
+            android:entryValues="@array/codigosColores"
+            android:key="colormenu"
+            android:summary="@string/preferencias_colorMenu_summary"
+            android:title="@string/preferencias_colorMenu_titulo"
+            android:icon="@drawable/ic_color_preferencias"/>
+
+        <ListPreference
+            android:title="@string/preferencias_idioma"
+            android:key="idioma"
+            android:summary="@string/preferencias_idioma_summary"
+            android:icon="@drawable/ic_preferencias_idioma_36dp"
+            android:entries="@array/idioma"
+            android:entryValues="@array/idiomaValores"
+            android:dialogTitle="@string/preferencias_idioma_summary"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

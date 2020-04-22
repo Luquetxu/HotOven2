@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hot Oven</string>
+
+    <!--Inicio sesion -->
+
+    <string name="hint_usuario">Username</string>
+    <string name="hint_contrasena">Password</string>
+    <string name="iniciarSesion">Log in</string>
+    <string name="noTengoCuenta">I do not have an account, I want to sign up</string>
+
+    <!-- Registro -->
+    <string name="hint_contrasenaRepetir">Repeat de password</string>
+    <string name="registro_botonRegistro">Sign up</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_datosVacios">Data no entered</string>
+    <string name="dialog_datosVaciosConsejo">Fill in the data that has not been entered</string>
+
+    <!--MENU PRINCIPAL-->
+    <string name="menu_restaurantes">Restaurants</string>
+    <string name="menu_pedidosRealizados">Orders done</string>
+    <string name="menu_ajustes">Settings</string>
+    <string name="menu_instrucciones">Instructions</string>
+
+    <!--Instrucciones -->
+    <string name="informacionAplicacion">Information</string>
+
+    <!-- Restaurantes -->
+    <!-- Pedidios realizados -->
+
+
+    <!-- Ajustes -->
+    <string name="preferencias_datosPersonales">Personal data</string>
+    <string name="preferencias_aspectoVisual">Visual aspect</string>
+
+    <string name="preferencias_usuario_titulo">Username</string>
+    <string name="preferencias_usuario_summary">Introduce your username</string>
+    <string name="preferencias_direccion_titulo">Address</string>
+    <string name="preferencias_direccion_summary">Introduce your address</string>
+    <string name="preferencias_colorMenu_titulo">Main menu color</string>
+    <string name="preferencias_colorMenu_summary">Choose the main menu color</string>
+
+    <string name="preferencias_idioma_castellano">Spanish</string>
+    <string name="preferencias_idioma_ingles">English</string>
+    <string name="preferencias_idioma">Language</string>
+    <string name="preferencias_idioma_summary">Choose the language of the aplication</string>
+    <string name="preferencias_color_defecto">Default</string>
+    <string name="preferencias_color_rojo">Red</string>
+    <string name="preferencias_color_azul">Blue</string>
+    <string name="preferencias_color_verde">Green</string>
+    <string name="restaurantes_lista_telefono">Phone:</string>
+    <string name="restaurantes_lista_url">URL:</string>
+    <string name="restaurante_info_tipo">Type of restaurant:</string>
+    <string name="restaurante_info_telefono">"Phone number: "</string>
+    <string name="restaurante_info_url">"URL: "</string>
+    <string name="restaurante_info_descripcion">Descripcion:</string>
+    <string name="restaurante_info_comidaRapida">Fast food</string>
+    <string name="restautante_info_comidaRestaurante">Restaurant</string>
+    <string name="restaurante_info_comidaBar">Pub</string>
+    <string name="btn_restaurante_realizar_pedido">Make an order</string>
+    <string name="dialog_pedido_comida_titulo">Food:</string>
+    <string name="dialog_pedido_comida_hamburguesa">Hamburguer</string>
+    <string name="dialog_pedido_comida_pizza">Pizza</string>
+    <string name="dialog_pedido_comida_platoCombinado">Combo plate</string>
+    <string name="dialog_pedido_comida_ensalada">Salad</string>
+    <string name="dialog_pedido_bebida_agua">Water</string>
+    <string name="dialog_pedido_bebida_cocacola">Coca-Cola</string>
+    <string name="dialog_pedido_bebdida_fanta">Orange Fanta</string>
+    <string name="dialog_pedido_bebida_cerveza">Beer</string>
+    <string name="dialog_pedido_bebida_titulo">Drinks</string>
+    <string name="dialog_pedido_notasAdicionales">Addition notes</string>
+    <string name="dialog_pedido_hint_notasAdicionales">Add extra information, either related to the order placed or at the time of delivery</string>
+    <string name="notificacionCanal">Order</string>
+    <string name="notificacion_canal_descripcion">The notification notice is sent when the order will arrive</string>
+    <string name="notificacion_pedido_realizado">Order made</string>
+    <string name="notificacion_importe1">The order is coming...</string>
+    <string name="notificacion_textoExpandible">Total cost:</string>
+    <string name="pedidos_lista_costeTotal">Total cost:</string>
+    <string name="pedidos_lista_vacia">There is not any order</string>
+    <string name="dialog_cerrarSesion_titulo">Log out...</string>
+    <string name="dialog_cerrarSesion_mensaje">Are you sure you want to log out?</string>
+    <string name="cambiarIdioma_iniciarSesion">Change language</string>
+    <string name="registro_titulo">REGISTER</string>
+    <string name="restaurante_info_no_hay_url">It does not have URL</string>
+    <string name="notificacion_confirmar_pedido">Confirm order</string>
+    <string name="notificacion_rechazar_pedido">Refuse order</string>
+    <string name="dialog_foto_eleccion">Choose the mode photo</string>
+    <string name="dialog_foto_capturar">Take a photo</string>
+    <string name="dialog_foto_cancelar">Cancel</string>
+    <string name="dialog_foto_galeria">Galery</string>
+    <string name="dialog_foto_seleccionar">Choose a method</string>
+    <string name="permisos">You have to accept the permissions</string>
+    <string name="ajustes_usuario_no_cambiado">Username not modified, it´s already exists</string>
+    <string name="text_instrucciones">This application consists of placing orders at nearby restaurants. I know     you can choose the restaurants freely. By placing an order, you can confirm or reject the order made.     In the main menu you can access the list of orders placed and delete them by pressing and holding</string>
+    <string name="btnVerMapa">Look for location</string>
+
+
+    <string-array name="map_types_list">
+        <item>Normal</item>
+        <item>Satellite</item>
+        <item>Hybrid</item>
+        <item>Terrain</item>
+    </string-array>
+    <string name="tipoMapa">Type map</string>
+
+</resources>

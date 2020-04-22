@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "154526114105",
+    "firebase_url": "https://hotoven-25368.firebaseio.com",
+    "project_id": "hotoven-25368",
+    "storage_bucket": "hotoven-25368.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154526114105:android:bfc52aebd92d22fd58c8e8",
+        "android_client_info": {
+          "package_name": "com.example.hotoven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154526114105-84avf415vhv71r74glhcuio60k8nujkn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hotoven",
+            "certificate_hash": "44d4452d9848e85f6e0a7b22513c00c44877fa17"
+          }
+        },
+        {
+          "client_id": "154526114105-etmk6uje1vgbut58maf50tmj9t72pqrl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnBYTsbvYxzQeQ2mo0pOJbMawQ8wu80OU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154526114105-etmk6uje1vgbut58maf50tmj9t72pqrl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

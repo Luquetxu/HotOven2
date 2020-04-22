@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#fc0e4f</color>
+    <color name="primaryText">#212121</color>
+    <color name="lightPrimaryColor">#BBDEFB</color>
+    <color name="textIcons">#FFFFFF</color>
+    <color name="secondaryText">#757575</color>
+
+    <color name="dialogFondo">#34383d</color>
+    <color name="cardview_fondo">#6cadfa</color>
+
+    <color name="fondoPorDefecto">#eceae9</color>
+    <color name="fondo_menuPrincipal_rojo">#f35c34</color>
+    <color name="fondo_menuPrincipal_verde">#73f56d</color>
+    <color name="fondo_menuPrincipal_azul">#4698f0</color>
+
+    <color name="negro">#060606</color>
+</resources>
