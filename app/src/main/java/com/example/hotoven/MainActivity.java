@@ -92,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
             cambiarIdiomaOnCreate(locale);
         }
 
+        // CREA EL TOKEN
         FirebaseInstanceId.getInstance().getInstanceId()
                 .addOnCompleteListener(new OnCompleteListener<InstanceIdResult>() {
                     @Override
@@ -309,11 +310,6 @@ public class MainActivity extends AppCompatActivity {
     public void cambiarIdiomaAjustes(View view){
         Intent intent = new Intent(MainActivity.this, AjustesIniciarSesion.class);
         startActivity(intent);
-    }
-
-    private void obtenerToken(){
-
-
     }
 
     /**

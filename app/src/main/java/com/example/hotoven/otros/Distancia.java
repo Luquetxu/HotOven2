@@ -22,7 +22,9 @@ public class Distancia {
      * @return: la distancia
      */
     public double calcularDistancia(){
-
+        /**Basado en el código extraído de una página web
+         * Asunto: https://www.genbeta.com/desarrollo/como-calcular-la-distancia-entre-dos-puntos-geograficos-en-c-formula-de-haversine
+         * Modificado  por  Unai Luque pasado a código Java **/
         double difLatitud = (Math.PI / 180) * (posRestaurante.getLatitud() - posUsuario.getLatitud());
         double difLongitud = (Math.PI / 180) * (posRestaurante.getLongitud() - posUsuario.getLongitud());
 
